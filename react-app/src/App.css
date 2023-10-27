@@ -1,0 +1,110 @@
+.App {
+  text-align: center;
+  padding: 20px;
+  background-color: #f5e1ff; /* Change the background color to lilac (light) */
+  font-family: 'Comic Sans MS', cursive; /* Use a more fun font */
+}
+
+/* Style for the name input popup */
+.popup {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin: 20px;
+}
+
+/* Style for the greeting and navigation */
+.greeting {
+  font-size: 28px; /* Increase the font size for a friendlier look */
+  margin-bottom: 20px;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Increase the gap to increase spacing */
+}
+
+.fancy-button {
+  background-color: rgb(177, 112, 196);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-right: 10px; /* Add margin to the right of the button */
+}
+
+.fancy-button:hover {
+  background-color: hsl(272, 35%, 56%);
+}
+
+/* Apply the new font to the entire body for a consistent look */
+body {
+  font-family: 'Comic Sans MS', cursive;
+  background-color: #f5e1ff; /* Change the background color to lilac (light) */
+  text-align: center;
+  padding: 20px;
+}
+
+/* Adjust the title font */
+h1 {
+  font-family: 'Comic Sans MS', cursive;
+  font-size: 36px; /* Increase the font size for a friendlier appearance */
+  color: #ff7f50; /* Match the button color for consistency */
+}
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.app-container {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column; /* Change to column layout */
+  align-items: center; /* Center horizontally */
+}
+
+h1 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  width: 60%;
+  margin-right: 10px; /* Add margin to separate input and button */
+}
+
+button {
+  background-color: #8b5c86;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #a679a9;
+}

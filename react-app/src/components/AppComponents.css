@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'CustomFont';
+    src: url('../fonts/SparkyStonesRegular-BW6ld.ttf') format('ttf');
+    /* Add more font formats if needed (e.g., woff2, ttf) */
+  }
+
+  /* Define CSS classes for each category */
+.category-any {
+    color: blue;
+    font-size: 20px;
+  }
+  
+  .category-misc {
+    color: green;
+    font-size: 24px;
+  }
+  
+  .category-programming {
+    color: orange;
+    font-size: 28px;
+  }
+  
+  .category-dark {
+    color: red;
+    font-size: 22px;
+  }
+  
+  .category-pun {
+    color: purple;
+    font-size: 26px;
+  }
+  
+  .category-spooky {
+    color: darkslategray;
+    font-size: 24px;
+  }
+  
+  .category-christmas {
+    color: red;
+    font-size: 26px;
+  }
+  
+  
