@@ -37,7 +37,7 @@ const JokeAccordion = () => {
 
   return (
     <div>
-<h2 style={{fontSize:28,fontWeight: 'bold', textTransform: 'uppercase', color: 'white', textShadow: '2px 2px 5px rgba(0, 0, 0, 1)', textAlign: 'center'}}>Choose a Joke Category</h2>
+<h2>Choose a Joke Category</h2>
       {categories.map((category) => (
         <Accordion key={category.name}>
           <AccordionSummary

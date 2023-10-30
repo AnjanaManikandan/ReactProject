@@ -1,9 +1,12 @@
 .App {
   text-align: center;
   padding: 20px;
-  background-color: #f5e1ff; /* Change the background color to lilac (light) */
-  font-family: 'Comic Sans MS', cursive; /* Use a more fun font */
+  background-image: url('./img/istockphoto.jpg'); /* Replace 'your-image-url.jpg' with the URL of your background image */
+  background-size: cover; 
+  background-repeat: no-repeat; /* Prevent background image from repeating */
+  font-family: 'Comic Sans MS', cursive;
 }
+
 
 /* Style for the name input popup */
 .popup {
@@ -49,13 +52,6 @@ body {
   padding: 20px;
 }
 
-/* Adjust the title font */
-h1 {
-  font-family: 'Comic Sans MS', cursive;
-  font-size: 36px; /* Increase the font size for a friendlier appearance */
-  color: #ff7f50; /* Match the button color for consistency */
-}
-
 .search-bar {
   display: flex;
   justify-content: center;
@@ -75,9 +71,11 @@ h1 {
 
 h1 {
   font-size: 28px;
-  color: #333;
+  color: rgb(248, 225, 253);
   margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
+
 
 .search-bar {
   display: flex;
@@ -107,4 +105,13 @@ button {
 
 button:hover {
   background-color: #a679a9;
+}
+
+.gif {
+  text-align: center;
+  padding: 20px;
+  background-image: url('./img/istockphoto.jpg'); /* Replace 'your-image-url.jpg' with the URL of your background image */
+  background-size: cover; 
+  background-repeat: no-repeat; /* Prevent background image from repeating */
+  font-family: 'Comic Sans MS', cursive;
 }

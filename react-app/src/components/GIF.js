@@ -13,7 +13,7 @@ function GIF (){
 
   return (
     <Container maxWidth="md">
-      <div className="App">
+      <div className="gif">
         <Typography variant="h3" align="center" gutterBottom>
           <h1>Find a GIF!</h1>
         </Typography>
